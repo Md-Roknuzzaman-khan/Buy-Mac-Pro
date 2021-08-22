@@ -138,7 +138,7 @@ document.getElementById("charged_delivery").addEventListener("click", function (
 
 //==================== For apply promo code ====================//
 document.getElementById("promo_code_button").addEventListener("click", function () {
-  if (getId("promo_code_field").value == "stevekaku") {
+  if (getId("promo_code_field").value == "rumman") {
     finalPrice.innerText = (parseFloat(finalPrice.innerText)) - (parseFloat(finalPrice.innerText)* 20) / 100;
     getId("promo_code_field").value = ""; 
     getId("promo_code_field").setAttribute("disabled", true);
